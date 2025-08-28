@@ -1,0 +1,1910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>be2287fbf8a445a4a0ca8e5303f77a1d</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="TldT1JvheRt6">
+<p><strong>This Project consist of two parts - Part A &amp; Part
+B</strong></p>
+</div>
+<div class="cell markdown" id="Z6JAkZARfSBe">
+<p><strong>Part A</strong></p>
+<p><strong>Context</strong></p>
+<p>There is a huge demand for used car in the indian market today. As
+sales of new cars have showed down in recent years, the pre-owned car
+market has continued to grow and is now larger than the new market.
+Cars4U is a budding tech start-up that aims to find footholes in this
+market. In 2018- 2019, while new car sales were recorded at 3.6 Million
+units, around 4 Million second-hand cars were boughtand sold. There is
+slowdown in new car sales and that couls mean that the demand is
+shifting towards the pre-owned market. Some car sellers replace their
+old cars with pre-owned cars instead of buying new ones. Unlike new
+cars, where price and supply are fairly deterministic and manages by
+OEMs(Original Equipment Manufacturese / except for dealership level
+discounts which come into play only in the last stage of the customer
+journey), used cars are very different beasts with huge uncertainty in
+both pricing and supply. Keeping this in mind, the pricing scheme of
+these used cars becomes important to grow in the market. As a senior
+data scientist at Cars4U, you have to come up with a pricing model that
+can effectively predict the price of used cars and can help the business
+in devising profitable strategies using differential pricing. For
+example, if the business knows the market price, it will never sell
+anything below it.</p>
+</div>
+<div class="cell markdown" id="r1qSoEptGjJ8">
+<p><strong>Objective</strong></p>
+<p>To explore and visualize the dataset, build a linear regression model
+to predict the price of used cars, and generate a set of insights and
+recommendations that will help the business.</p>
+</div>
+<div class="cell markdown" id="WHuz_Ii1HNGX">
+<p><strong>Data Description</strong></p>
+<p>The data contains the different attributes of used cars sold in
+different locations. The detailed data dictionary is given below.</p>
+<p><strong>Data Dictionary</strong></p>
+<ol>
+<li><strong>S.No.</strong> : Serial Number.</li>
+<li><strong>Name</strong> : Name of the car which includes brand name
+and model name.</li>
+<li><strong>Location</strong> : The location in which the car is being
+sold or is available for purchase (cities).</li>
+<li><strong>Year</strong> : Manufacturing year of the car.</li>
+<li><strong>Kilometers_driven</strong> : The total kilometers driven in
+the car by the previous owner(s) in km.</li>
+<li><strong>Fuel_Type</strong> : The type of fuel used by the car
+(Petrol, Diesel, Electric, CNG, LPG)</li>
+<li><strong>Transmission</strong> : The type of transmission used by the
+car (Automatic/Manual)</li>
+<li><strong>Owner</strong> : Type of ownership.</li>
+<li><strong>Mileage</strong> : The Standard mileage offered by the car
+company in kmpl or km/kg.</li>
+<li><strong>Engine</strong> : The displacement volume of the engine in
+CC.</li>
+<li><strong>Power</strong> : The maximum power of the engine in
+bhp.</li>
+<li><strong>Seats</strong> : The number of seats in the car.</li>
+<li><strong>New_Price</strong> : The price of a new car of the same
+model in INR Lakhs (1 Lakh INR = 100,000 INR)</li>
+<li><strong>Price</strong> : The price of the used car in lacs.</li>
+</ol>
+</div>
+<div class="cell markdown" id="64PqXv9UADOy">
+<p><strong>Importing the Labraries</strong></p>
+</div>
+<div class="cell code" data-execution_count="1" id="_3UDJlHAeKC5">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder, StandardScaler</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> Lasso</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_absolute_error, mean_squared_error</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:293}"
+id="JvUVIGm9BbRU" data-outputId="18ffb164-9ecb-46f2-accf-54ed6bf4053a">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the Dataset</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/drive/MyDrive/Datasets/used_cars_data.csv&#39;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+
+  <div id="df-f0141e1a-19ad-4f2d-8e1c-0459aa169d47" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>S.No.</th>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Year</th>
+      <th>Kilometers_Driven</th>
+      <th>Fuel_Type</th>
+      <th>Transmission</th>
+      <th>Owner_Type</th>
+      <th>Mileage</th>
+      <th>Engine</th>
+      <th>Power</th>
+      <th>Seats</th>
+      <th>New_Price</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>Maruti Wagon R LXI CNG</td>
+      <td>Mumbai</td>
+      <td>2010</td>
+      <td>72000</td>
+      <td>CNG</td>
+      <td>Manual</td>
+      <td>First</td>
+      <td>26.6 km/kg</td>
+      <td>998 CC</td>
+      <td>58.16 bhp</td>
+      <td>5.0</td>
+      <td>5.51</td>
+      <td>1.75</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>Hyundai Creta 1.6 CRDi SX Option</td>
+      <td>Pune</td>
+      <td>2015</td>
+      <td>41000</td>
+      <td>Diesel</td>
+      <td>Manual</td>
+      <td>First</td>
+      <td>19.67 kmpl</td>
+      <td>1582 CC</td>
+      <td>126.2 bhp</td>
+      <td>5.0</td>
+      <td>16.06</td>
+      <td>12.50</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>Honda Jazz V</td>
+      <td>Chennai</td>
+      <td>2011</td>
+      <td>46000</td>
+      <td>Petrol</td>
+      <td>Manual</td>
+      <td>First</td>
+      <td>18.2 kmpl</td>
+      <td>1199 CC</td>
+      <td>88.7 bhp</td>
+      <td>5.0</td>
+      <td>8.61</td>
+      <td>4.50</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>Maruti Ertiga VDI</td>
+      <td>Chennai</td>
+      <td>2012</td>
+      <td>87000</td>
+      <td>Diesel</td>
+      <td>Manual</td>
+      <td>First</td>
+      <td>20.77 kmpl</td>
+      <td>1248 CC</td>
+      <td>88.76 bhp</td>
+      <td>7.0</td>
+      <td>11.27</td>
+      <td>6.00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>Audi A4 New 2.0 TDI Multitronic</td>
+      <td>Coimbatore</td>
+      <td>2013</td>
+      <td>40670</td>
+      <td>Diesel</td>
+      <td>Automatic</td>
+      <td>Second</td>
+      <td>15.2 kmpl</td>
+      <td>1968 CC</td>
+      <td>140.8 bhp</td>
+      <td>5.0</td>
+      <td>53.14</td>
+      <td>17.74</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-f0141e1a-19ad-4f2d-8e1c-0459aa169d47')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-f0141e1a-19ad-4f2d-8e1c-0459aa169d47 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-f0141e1a-19ad-4f2d-8e1c-0459aa169d47');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    <div id="df-9123f312-a369-443b-8c1b-f0e623522862">
+      <button class="colab-df-quickchart" onclick="quickchart('df-9123f312-a369-443b-8c1b-f0e623522862')"
+                title="Suggest charts"
+                style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+      </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+      <script>
+        async function quickchart(key) {
+          const quickchartButtonEl =
+            document.querySelector('#' + key + ' button');
+          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+          quickchartButtonEl.classList.add('colab-df-spinner');
+          try {
+            const charts = await google.colab.kernel.invokeFunction(
+                'suggestCharts', [key], {});
+          } catch (error) {
+            console.error('Error during call to suggestCharts:', error);
+          }
+          quickchartButtonEl.classList.remove('colab-df-spinner');
+          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+        }
+        (() => {
+          let quickchartButtonEl =
+            document.querySelector('#df-9123f312-a369-443b-8c1b-f0e623522862 button');
+          quickchartButtonEl.style.display =
+            google.colab.kernel.accessAllowed ? 'block' : 'none';
+        })();
+      </script>
+    </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="QnC_4aJ4CEti" data-outputId="868177ad-bb8a-4845-f481-fac9fa5efd3b">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Basic Exploration</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.shape)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.dtypes)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(7253, 14)
+S.No.                  int64
+Name                  object
+Location              object
+Year                   int64
+Kilometers_Driven      int64
+Fuel_Type             object
+Transmission          object
+Owner_Type            object
+Mileage               object
+Engine                object
+Power                 object
+Seats                float64
+New_Price            float64
+Price                float64
+dtype: object
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="dzFR9FklCTv9">
+<p>The dataset has 7253 rows and 14 columns.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:300}"
+id="htEIs1WjCRVq" data-outputId="a690e9b9-8c19-41f7-fa8e-c5125d05f5ca">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Description of the dataset</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-59950a12-a0b4-4dcb-b1c6-b88a5363a03a" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>S.No.</th>
+      <th>Year</th>
+      <th>Kilometers_Driven</th>
+      <th>Seats</th>
+      <th>New_Price</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>7253.000000</td>
+      <td>7253.000000</td>
+      <td>7.253000e+03</td>
+      <td>7200.000000</td>
+      <td>7253.000000</td>
+      <td>6019.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>3626.000000</td>
+      <td>2013.365366</td>
+      <td>5.869906e+04</td>
+      <td>5.279722</td>
+      <td>21.307322</td>
+      <td>9.479468</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>2093.905084</td>
+      <td>3.254421</td>
+      <td>8.442772e+04</td>
+      <td>0.811660</td>
+      <td>24.256314</td>
+      <td>11.187917</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>1996.000000</td>
+      <td>1.710000e+02</td>
+      <td>0.000000</td>
+      <td>3.910000</td>
+      <td>0.440000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>1813.000000</td>
+      <td>2011.000000</td>
+      <td>3.400000e+04</td>
+      <td>5.000000</td>
+      <td>7.880000</td>
+      <td>3.500000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>3626.000000</td>
+      <td>2014.000000</td>
+      <td>5.341600e+04</td>
+      <td>5.000000</td>
+      <td>11.300000</td>
+      <td>5.640000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>5439.000000</td>
+      <td>2016.000000</td>
+      <td>7.300000e+04</td>
+      <td>5.000000</td>
+      <td>21.690000</td>
+      <td>9.950000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>7252.000000</td>
+      <td>2019.000000</td>
+      <td>6.500000e+06</td>
+      <td>10.000000</td>
+      <td>375.000000</td>
+      <td>160.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-59950a12-a0b4-4dcb-b1c6-b88a5363a03a')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-59950a12-a0b4-4dcb-b1c6-b88a5363a03a button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-59950a12-a0b4-4dcb-b1c6-b88a5363a03a');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    <div id="df-2defbc1d-dfa0-4e17-a06b-dd7fe0309b0a">
+      <button class="colab-df-quickchart" onclick="quickchart('df-2defbc1d-dfa0-4e17-a06b-dd7fe0309b0a')"
+                title="Suggest charts"
+                style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+      </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+      <script>
+        async function quickchart(key) {
+          const quickchartButtonEl =
+            document.querySelector('#' + key + ' button');
+          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+          quickchartButtonEl.classList.add('colab-df-spinner');
+          try {
+            const charts = await google.colab.kernel.invokeFunction(
+                'suggestCharts', [key], {});
+          } catch (error) {
+            console.error('Error during call to suggestCharts:', error);
+          }
+          quickchartButtonEl.classList.remove('colab-df-spinner');
+          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+        }
+        (() => {
+          let quickchartButtonEl =
+            document.querySelector('#df-2defbc1d-dfa0-4e17-a06b-dd7fe0309b0a button');
+          quickchartButtonEl.style.display =
+            google.colab.kernel.accessAllowed ? 'block' : 'none';
+        })();
+      </script>
+    </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:523}"
+id="5m1c71FbCigW" data-outputId="a41e42c4-b675-47dc-c896-41253364763d">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking the missing values</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>S.No.</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Kilometers_Driven</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Fuel_Type</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Transmission</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Owner_Type</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Mileage</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Engine</th>
+      <td>46</td>
+    </tr>
+    <tr>
+      <th>Power</th>
+      <td>175</td>
+    </tr>
+    <tr>
+      <th>Seats</th>
+      <td>53</td>
+    </tr>
+    <tr>
+      <th>New_Price</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+      <td>1234</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> int64</label>
+</div>
+</div>
+<div class="cell code" id="fnBiUaFRC9T9">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.impute <span class="im">import</span> SimpleImputer</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Split the data</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>df_known <span class="op">=</span> df[df[<span class="st">&#39;Price&#39;</span>].notnull()]</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>df_missing <span class="op">=</span> df[df[<span class="st">&#39;Price&#39;</span>].isnull()]</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Preprocess</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Kilometers_Driven&#39;</span>, <span class="st">&#39;Fuel_Type&#39;</span>, <span class="st">&#39;Engine&#39;</span>, <span class="st">&#39;Power&#39;</span>, <span class="st">&#39;Owner_Type&#39;</span>]  <span class="co"># example features</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>df_model <span class="op">=</span> df_known[features <span class="op">+</span> [<span class="st">&#39;Price&#39;</span>]].copy()</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Encode categoricals</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df_model.select_dtypes(include<span class="op">=</span><span class="st">&#39;object&#39;</span>).columns:</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    df_model[col] <span class="op">=</span> LabelEncoder().fit_transform(df_model[col].astype(<span class="bu">str</span>))</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Impute remaining missing values</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>imputer <span class="op">=</span> SimpleImputer(strategy<span class="op">=</span><span class="st">&#39;median&#39;</span>)</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> imputer.fit_transform(df_model[features])</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_model[<span class="st">&#39;Price&#39;</span>]</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Train model</span></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestRegressor()</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>model.fit(X, y)</span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Predict missing prices</span></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>df_missing_processed <span class="op">=</span> df_missing[features].copy()</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df_missing_processed.select_dtypes(include<span class="op">=</span><span class="st">&#39;object&#39;</span>).columns:</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>    df_missing_processed[col] <span class="op">=</span> LabelEncoder().fit_transform(df_missing_processed[col].astype(<span class="bu">str</span>))</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>df_missing_imputed <span class="op">=</span> imputer.transform(df_missing_processed)</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>predicted_prices <span class="op">=</span> model.predict(df_missing_imputed)</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 5: Fill in the predicted prices</span></span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a>df.loc[df[<span class="st">&#39;Price&#39;</span>].isnull(), <span class="st">&#39;Price&#39;</span>] <span class="op">=</span> predicted_prices</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:523}"
+id="ATs_SskwNW1D" data-outputId="1df5b103-d0df-4530-f7c3-91d535fa69d9">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking for the Null value again</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>S.No.</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Kilometers_Driven</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Fuel_Type</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Transmission</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Owner_Type</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Mileage</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Engine</th>
+      <td>46</td>
+    </tr>
+    <tr>
+      <th>Power</th>
+      <td>175</td>
+    </tr>
+    <tr>
+      <th>Seats</th>
+      <td>53</td>
+    </tr>
+    <tr>
+      <th>New_Price</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> int64</label>
+</div>
+</div>
+<div class="cell markdown" id="urAMvslhPH_n">
+<p>since only ~2% of the values in the Power column are missing, it's a
+relatively small proportion. That means we don't need complex imputation
+methods like predictive modeling.</p>
+</div>
+<div class="cell code" id="pwqqItafQjsf">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop the null values from the dataset</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>df.dropna(inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:523}"
+id="VLWSwnrIRkRQ" data-outputId="18b80d12-4c22-4ce2-b778-9a7c11c11306">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>S.No.</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Kilometers_Driven</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Fuel_Type</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Transmission</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Owner_Type</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Mileage</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Engine</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Power</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Seats</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>New_Price</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> int64</label>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="j33yXGQzRubc" data-outputId="275c9efb-e037-4797-a720-b6b47e20ba9e">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking the Duplicate values</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df.duplicated().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>np.int64(0)</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="CgDFHAowSHdV">
+<p>There is no duplicate values in the dataset.</p>
+</div>
+<section id="univariate-analysis" class="cell markdown"
+id="oO8x3MGOUIBG">
+<h3><strong>Univariate Analysis</strong></h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:487}"
+id="iRJWcF7yUPV8" data-outputId="89c25184-abea-4109-9091-99fdf1583093">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Price</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>sns.histplot(df[<span class="st">&#39;Price&#39;</span>], kde <span class="op">=</span> <span class="va">True</span>, bins <span class="op">=</span> <span class="dv">40</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Car Prices&#39;</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Price&quot;</span>)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Count&quot;</span>)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/91727a25209aee183acdc0d1912fb7e83ae91a93.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="K7V6lHXhcemp">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>The price distribution is right-skewed, indicating a higher
+number of lower-priced used cars.</p></li>
+<li><p>Some extreme values (outliers) exist on the higher end,
+suggesting the presence of luxury vehicles.</p></li>
+<li><p>This variable should be log-transformed or handled with care
+during modeling.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:595}"
+id="ENXpKS4iZGOg" data-outputId="fe29da7d-5e90-4277-d8dd-4a343d4a6276">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Year Distribution</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>sns.countplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Year&#39;</span>, order<span class="op">=</span><span class="bu">sorted</span>(df[<span class="st">&#39;Year&#39;</span>].unique()), palette<span class="op">=</span><span class="st">&quot;Blues_r&quot;</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Cars by Manufacturing Year&quot;</span>)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-28-0e3d54017d74&gt;:2: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(data=df, x=&#39;Year&#39;, order=sorted(df[&#39;Year&#39;].unique()), palette=&quot;Blues_r&quot;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/4648ff598b6a4b5abea12799dc33d46f8ba2ea49.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="EzhMv4yRdq76">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Most cars are from 2010–2019, showing demand for relatively newer
+used cars.</p></li>
+<li><p>Very few listings from before 2005, likely due to depreciation or
+scrapping policies.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:497}"
+id="r4Op2xShfgrx" data-outputId="c82606f6-2c11-40a4-d8ea-5469b90864f0">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>sns.countplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Fuel_Type&#39;</span>, palette<span class="op">=</span><span class="st">&#39;Set2&#39;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Fuel Type Distribution&quot;</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Fuel Type&quot;</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Count&quot;</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-32-524db78c669d&gt;:2: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(data=df, x=&#39;Fuel_Type&#39;, palette=&#39;Set2&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/bd74e776450b2bcca04c4749019936d90d792e1a.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="DO8WTyaMgdlI">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Diesel and Petrol dominate the market.</p></li>
+<li><p>Very few electric or CNG cars, which may reflect the used car
+market trends in India.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:497}"
+id="h6LPw1kPfpFi" data-outputId="20a97ec1-9b3b-493b-c3f7-8a4e149e25fd">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Transmission</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>sns.countplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Transmission&#39;</span>, palette<span class="op">=</span><span class="st">&#39;pastel&#39;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Transmission Distribution&quot;</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Transmission&quot;</span>)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Count&quot;</span>)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-35-9d3aac137de1&gt;:3: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(data=df, x=&#39;Transmission&#39;, palette=&#39;pastel&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/5d7a627d35b3ca34e8ed4a34a470123e4cdafbbc.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="qnR10rSzhaeU">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Manual transmission cars are far more common in the used
+market.</p></li>
+<li><p>Automatic cars, though increasing, are still in the
+minority.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:497}"
+id="N0i3S8E8hPE0" data-outputId="c6f9965c-a953-49d7-db59-69629051a181">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>sns.countplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Owner_Type&#39;</span>, palette<span class="op">=</span><span class="st">&#39;muted&#39;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Owner Type Distribution&quot;</span>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Owner Type&quot;</span>)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Count&quot;</span>)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-38-056e1e9ba880&gt;:2: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(data=df, x=&#39;Owner_Type&#39;, palette=&#39;muted&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/317001a7a769b1fae3a394bef9d911755e71855d.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="8YGxtzMFkINi">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Majority of cars are First Owners, indicating better resale value
+and trust.</p></li>
+<li><p>Few are from third/fourth owners — possibly harder to
+sell.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:651}"
+id="0QH53yWUjdqW" data-outputId="3594bbb1-61e3-4444-9290-22c0443d4730">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Categorical Variables Distribution</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">6</span>))</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>sns.countplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Fuel_Type&#39;</span>, order<span class="op">=</span>df[<span class="st">&#39;Fuel_Type&#39;</span>].value_counts().index, palette<span class="op">=</span><span class="st">&#39;muted&#39;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Fuel Type Distribution&#39;</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-43-ae5bc72abb98&gt;:3: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(data=df, x=&#39;Fuel_Type&#39;, order=df[&#39;Fuel_Type&#39;].value_counts().index, palette=&#39;muted&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/cab9ee1ccaa263945ffccfc0366953b8d4441a3b.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="6nK9vQXWXft1">
+<p>###<strong>Bivariate Analysis</strong></p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:585}"
+id="1j3ExbCTnuZU" data-outputId="c8a8c8e1-6865-4c2f-c0a4-a5436e091ea8">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Price vs Fuel</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Year&#39;</span>, y<span class="op">=</span><span class="st">&#39;Price&#39;</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Price vs. Year of Car&#39;</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/85c5c51158dc58ea29cde8ab7eae2015a522ec93.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="mLHJ5MYaYrPr">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Newer cars tend to have higher prices.</p></li>
+<li><p>A few expensive outliers exist across several years.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:651}"
+id="n8hRapfGXsKf" data-outputId="78bf43d1-acf3-45f4-e710-94ed4bf3ac2f">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Price vs.  Fuel Type</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Fuel_Type&#39;</span>, y<span class="op">=</span><span class="st">&#39;Price&#39;</span>, palette<span class="op">=</span><span class="st">&#39;Set2&#39;</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Price vs. Fuel_Type&#39;</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Price&#39;</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-11-5751d10b4ee4&gt;:3: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(data=df, x=&#39;Fuel_Type&#39;, y=&#39;Price&#39;, palette=&#39;Set2&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/a373e004e04f3a488ee4d607831c5cae774d7a9e.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="mlm3yuhMbQfR">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p><strong>Diesel</strong> and <strong>Petrol</strong> are the most
+common types.</p></li>
+<li><p><strong>Electric</strong> and <strong>hybrid variants</strong>
+(if any) may be priced higher but are rare.</p></li>
+<li><p><strong>Diesel</strong> cars tend to have slightly higher median
+prices.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:651}"
+id="PW2YunxoZN9A" data-outputId="e96b4ab9-ad4c-4334-e596-de5d23007a41">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Price vs. Transmission</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Transmission&#39;</span>, y<span class="op">=</span><span class="st">&#39;Price&#39;</span>, palette<span class="op">=</span><span class="st">&#39;pastel&#39;</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Price vs. Transmission&#39;</span>)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Price&#39;</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-12-4a9655e6f772&gt;:3: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(data=df, x=&#39;Transmission&#39;, y=&#39;Price&#39;, palette=&#39;pastel&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/7e540a4168ad0a65ffc70d7d90e36d413afdad9e.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="i_zey0jarEno">
+<p><strong>Insight:</strong></p>
+<p>Automatic cars generally have a higher median price compared to
+manual cars.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:574}"
+id="D92IBAy3q6X7" data-outputId="4de6da1d-b509-41df-edf9-ac236fa91798">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co">#  Price vs. Owner Type</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">5</span>))</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Owner_Type&#39;</span>, y<span class="op">=</span><span class="st">&#39;Price&#39;</span>, palette<span class="op">=</span><span class="st">&#39;pastel&#39;</span>)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Price vs. Owner Type&#39;</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-14-e461c76f7f2d&gt;:3: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(data=df, x=&#39;Owner_Type&#39;, y=&#39;Price&#39;, palette=&#39;pastel&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/0c427d4274b1958353de3acdf791e74fd9057ecb.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="EnZTvMe5raQo">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>First-owner cars command higher prices.</p></li>
+<li><p>Prices drop significantly with second or third
+ownership.</p></li>
+</ol>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:545}"
+id="f_Ugzru9sWTl" data-outputId="fcb18bd5-9b8b-4e60-9cfc-370462f4775f">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlation Heatmap (Numeric Features)</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>sns.heatmap(df.corr(numeric_only<span class="op">=</span><span class="va">True</span>), annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Heatmap&#39;</span>)</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/ede3f74cd23e60a94a838832bfd9a536d7c1d14c.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="3S5Hc9vjs7ID">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Price is negatively correlated with Kilometers_Driven.</p></li>
+<li><p>Weak correlation with most other numeric features, suggesting
+multivariate modeling may be necessary.</p></li>
+</ol>
+</div>
+<div class="cell markdown" id="ZAnZqMdmtgdg">
+<p>###<strong>Multivariate Analysis</strong></p>
+</div>
+<div class="cell markdown" id="V5grV4ht4vBt">
+<p><strong>Price by Year and Fuel Type</strong></p>
+</div>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:726}"
+id="swgpIzUS3yKF" data-outputId="e742aec0-66a3-4206-8d47-5a762a58577f">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">10</span>))</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Year&#39;</span>, y<span class="op">=</span><span class="st">&#39;Price&#39;</span>, hue<span class="op">=</span><span class="st">&#39;Fuel_Type&#39;</span>)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Price by Year and Fuel Type&#39;</span>)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&#39;Fuel Type&#39;</span>)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/7f1c35821b84846a8ac2f3cc6920b4b55d985adf.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="YoqsRXFm41JF">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Newer cars, regardless of fuel type, are priced higher.</p></li>
+<li><p>Diesel vehicles often command higher prices in older models, but
+petrol catches up in newer ones.</p></li>
+</ol>
+</div>
+<div class="cell markdown" id="P2D8ch9N45N3">
+<p><strong>Price by Transmission and Fuel Type</strong></p>
+</div>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="I0A1qIRe5Aap" data-outputId="dc9922dd-323e-450e-de4e-97ae1a853923">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Owner_Type&#39;</span>, y<span class="op">=</span><span class="st">&#39;Price&#39;</span>, hue<span class="op">=</span><span class="st">&#39;Fuel_Type&#39;</span>)</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Price by Owner Type and Fuel Type&#39;</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&#39;Fuel_Type&#39;</span>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/8a06dd2e620a88cf91c74eee4e593c7aeace08c2.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="LgM7I3Y-5oGG">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Automatic transmissions are more expensive, especially for diesel
+variants.</p></li>
+<li><p>Manual petrol cars are generally the cheapest.</p></li>
+</ol>
+</div>
+<div class="cell markdown" id="PeYf8v9Q6MsM">
+<p><strong>Pair Plot of Numerical Features</strong></p>
+</div>
+<div class="cell code" data-execution_count="9"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:787}"
+id="8Hw0R7YF6RcU" data-outputId="3be6985b-cfdf-49d8-bab6-6f9a26604678">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>num_cols <span class="op">=</span> [<span class="st">&#39;Price&#39;</span>, <span class="st">&#39;Kilometers_Driven&#39;</span>, <span class="st">&#39;Mileage&#39;</span>, <span class="st">&#39;Engine&#39;</span>, <span class="st">&#39;Power&#39;</span>, <span class="st">&#39;Seats&#39;</span>]</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>sns.pairplot(df[num_cols].dropna())</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">&#39;Pairplot of Numerical Features&#39;</span>, y<span class="op">=</span><span class="fl">1.02</span>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/21ee3260f85608287a4f02a1ccfdeb60a398125f.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="_OUm4oMU7AzS">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Negative linear trends visible between Price and
+Kilometers_Driven.</p></li>
+<li><p>Relationships aren't always linear, implying complex
+interactions.</p></li>
+</ol>
+</div>
+<div class="cell markdown" id="1FQLVKJL8LgQ">
+<p><strong>Heatmap with Categorical Encoded Features</strong></p>
+</div>
+<div class="cell code" data-execution_count="11"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:884}"
+id="6qkBsbxm8O2Z" data-outputId="f2f46e5d-9c61-47d5-cb93-fa2191fb6f1e">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>df_encoded <span class="op">=</span> df.copy()</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop the &#39;Name&#39; column as it&#39;s a string and not relevant for correlation calculation</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>df_encoded <span class="op">=</span> df_encoded.drop(<span class="st">&#39;Name&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>df_encoded <span class="op">=</span> pd.get_dummies(df_encoded, columns<span class="op">=</span>[<span class="st">&#39;Fuel_Type&#39;</span>, <span class="st">&#39;Transmission&#39;</span>, <span class="st">&#39;Owner_Type&#39;</span>], drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">8</span>))</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>sns.heatmap(df_encoded.corr(numeric_only<span class="op">=</span><span class="va">True</span>), cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, annot<span class="op">=</span><span class="va">True</span>) <span class="co"># Added numeric_only=True for robustness</span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Heatmap with Encoded Categorical Features&#39;</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_735a849c6cbe4ae88660da8758d485ae/291d7a3247b1fa6ff5f34b18255d6ac2f4713ba9.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="X2wDzyue8eT8">
+<p><strong>Insight:</strong></p>
+<ol>
+<li><p>Power and Engine correlate moderately with Price.</p></li>
+<li><p>Encoded variables like Transmission_Automatic also show mild
+positive correlation with Price.</p></li>
+</ol>
+</div>
+<div class="cell markdown" id="jolN1AQnQGAw">
+<p><strong>Feature Engineering</strong></p>
+</div>
+<div class="cell code" data-execution_count="4" id="9HPaX72p9OER">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>df_model <span class="op">=</span> df.copy()</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop irrelevant column</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>df_model.drop(columns<span class="op">=</span>[<span class="st">&#39;S.No.&#39;</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract numeric values from string fields</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extract_number(text):</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">float</span>(text.split()[<span class="dv">0</span>])</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.nan</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>df_model[<span class="st">&#39;Mileage&#39;</span>] <span class="op">=</span> df_model[<span class="st">&#39;Mileage&#39;</span>].<span class="bu">apply</span>(extract_number)</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>df_model[<span class="st">&#39;Engine&#39;</span>] <span class="op">=</span> df_model[<span class="st">&#39;Engine&#39;</span>].<span class="bu">apply</span>(extract_number)</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>df_model[<span class="st">&#39;Power&#39;</span>] <span class="op">=</span> df_model[<span class="st">&#39;Power&#39;</span>].<span class="bu">apply</span>(extract_number)</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop rows with remaining missing values</span></span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a>df_model.dropna(inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="-yavSgbYQKza">
+<p><strong>Log Transformation &amp; Encoding</strong></p>
+</div>
+<div class="cell code" data-execution_count="5" id="dNLJR1pSP4vv">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Log-transform skewed numeric variables</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>df_model[<span class="st">&#39;price_log&#39;</span>] <span class="op">=</span> np.log(df_model[<span class="st">&#39;Price&#39;</span>])</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>df_model[<span class="st">&#39;kilometers_driven_log&#39;</span>] <span class="op">=</span> np.log(df_model[<span class="st">&#39;Kilometers_Driven&#39;</span>])</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Encode categorical columns</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>categorical_cols <span class="op">=</span> [<span class="st">&#39;Location&#39;</span>, <span class="st">&#39;Fuel_Type&#39;</span>, <span class="st">&#39;Transmission&#39;</span>, <span class="st">&#39;Owner_Type&#39;</span>]</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>le <span class="op">=</span> LabelEncoder()</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> categorical_cols:</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>    df_model[col] <span class="op">=</span> le.fit_transform(df_model[col])</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop overly granular &#39;Name&#39;</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>df_model.drop(columns<span class="op">=</span>[<span class="st">&#39;Name&#39;</span>], inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="vnC2qFTAQR-2">
+<p><strong>Train-Test Split</strong></p>
+</div>
+<div class="cell code" data-execution_count="6" id="O1AQzOA5QOqR">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature selection</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Kilometers_Driven&#39;</span>, <span class="st">&#39;kilometers_driven_log&#39;</span>, <span class="st">&#39;Fuel_Type&#39;</span>,</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Transmission&#39;</span>, <span class="st">&#39;Owner_Type&#39;</span>, <span class="st">&#39;Mileage&#39;</span>, <span class="st">&#39;Engine&#39;</span>, <span class="st">&#39;Power&#39;</span>, <span class="st">&#39;Seats&#39;</span>, <span class="st">&#39;New_Price&#39;</span>, <span class="st">&#39;Location&#39;</span>]</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df_model[features]</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>y_price <span class="op">=</span> df_model[<span class="st">&#39;Price&#39;</span>]</span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>y_price_log <span class="op">=</span> df_model[<span class="st">&#39;price_log&#39;</span>]</span>
+<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Train/test split</span></span>
+<span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train_price, y_test_price <span class="op">=</span> train_test_split(X, y_price, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb38-13"><a href="#cb38-13" aria-hidden="true" tabindex="-1"></a>_, _, y_train_log, y_test_log <span class="op">=</span> train_test_split(X, y_price_log, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="yXpkntU5QYmm">
+<p><strong>Model Training and Evaluation</strong></p>
+</div>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="odT3YrxsQWIZ" data-outputId="103d9dee-ef62-4bb1-ce44-1655f4b2d7fa">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, mean_absolute_error, r2_score</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Model 1: Predict actual Price</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>model_price <span class="op">=</span> LinearRegression().fit(X_train, y_train_price)</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>pred_price <span class="op">=</span> model_price.predict(X_test)</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Model 2: Predict log(Price)</span></span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>model_log <span class="op">=</span> LinearRegression().fit(X_train, y_train_log)</span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>pred_log <span class="op">=</span> model_log.predict(X_test)</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Metrics</span></span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a>metrics_price <span class="op">=</span> {</span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;RMSE&quot;</span>: np.sqrt(mean_squared_error(y_test_price, pred_price)),</span>
+<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;MAE&quot;</span>: mean_absolute_error(y_test_price, pred_price),</span>
+<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;R²&quot;</span>: r2_score(y_test_price, pred_price)</span>
+<span id="cb39-17"><a href="#cb39-17" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-19"><a href="#cb39-19" aria-hidden="true" tabindex="-1"></a>metrics_log <span class="op">=</span> {</span>
+<span id="cb39-20"><a href="#cb39-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;RMSE&quot;</span>: np.sqrt(mean_squared_error(y_test_log, pred_log)),</span>
+<span id="cb39-21"><a href="#cb39-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;MAE&quot;</span>: mean_absolute_error(y_test_log, pred_log),</span>
+<span id="cb39-22"><a href="#cb39-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;R²&quot;</span>: r2_score(y_test_log, pred_log)</span>
+<span id="cb39-23"><a href="#cb39-23" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb39-24"><a href="#cb39-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-25"><a href="#cb39-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Model 1 (Predicting Price):&quot;</span>, metrics_price)</span>
+<span id="cb39-26"><a href="#cb39-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Model 2 (Predicting log(Price)):&quot;</span>, metrics_log)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model 1 (Predicting Price): {&#39;RMSE&#39;: np.float64(5.18226895161098), &#39;MAE&#39;: 3.146732759149864, &#39;R²&#39;: 0.7440123940949688}
+Model 2 (Predicting log(Price)): {&#39;RMSE&#39;: np.float64(0.3047165965725601), &#39;MAE&#39;: 0.21969304655058813, &#39;R²&#39;: 0.8730994687653115}
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="fP7MxGiLQkyt">
+<p>#<strong>Business Insights &amp; Recommendation</strong></p>
+<p>###<strong>Final Model:</strong></p>
+<p><strong>Model 2 (Log-Transformed Price) is chosen
+because:</strong></p>
+<ol>
+<li><p>It performs better on all metrics.</p></li>
+<li><p>Handles skewness and outliers effectively.</p></li>
+<li><p>Produces more reliable predictions across different car
+segments.</p></li>
+</ol>
+<p><strong>Actionable Insights:</strong></p>
+<p><strong>Top Influencers of Price:</strong></p>
+<ul>
+<li>Engine size, power, mileage, and transmission type have the greatest
+impact on car price.</li>
+</ul>
+<p><strong>Inventory Strategy:</strong></p>
+<ul>
+<li>Avoid acquiring cars with high kilometers and low power—they
+depreciate faster.</li>
+</ul>
+<p><strong>Dynamic Pricing:</strong></p>
+<ul>
+<li>Use model predictions to adjust prices based on car age, fuel type,
+and performance metrics.</li>
+</ul>
+<p><strong>Marketing Focus:</strong></p>
+<ul>
+<li>Promote high-mileage, high-power vehicles as “performance-focused”
+to justify pricing.</li>
+</ul>
+</div>
+<div class="cell code" id="MQkOdIuFQcNY">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
